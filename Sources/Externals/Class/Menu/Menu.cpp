@@ -5,6 +5,8 @@ Menu::~Menu() {
     for (int i = 0;i < Widgets.size();i++) delete Widgets[i];
     Widgets.clear();
     delete &Widgets;
+    
+    //On est sûr que il reste plus rien ^^
 
 }
 
